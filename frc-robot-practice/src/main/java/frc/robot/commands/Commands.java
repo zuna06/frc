@@ -8,11 +8,16 @@ import frc.robot.Robot;
 
 public class Commands {
     
-    public XboxController driverController = new XboxController(0);
+    public static XboxController driverController = new XboxController(0);
 
-
+    //emergency stop
+    //video 7
     public static final Command stop = new InstantCommand(() -> Robot.driveTrain.stop(), Robot.driveTrain);
     
+    //need to set default drive command in class origin
+    //so that robot can be controlled at all times using 
+    //left and right sticks
+    //Video 7 -> 10:32
     public static final Command driveRun = new RunCommand(() -> Robot.driveTrain.arcadeDrive(driverController), Robot.driveTrain);
 
 
