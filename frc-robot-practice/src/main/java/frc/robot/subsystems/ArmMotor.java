@@ -16,6 +16,8 @@ public class ArmMotor {
         //Lightridge/Tesla
         intake.setNeutralMode(NeutralMode.Brake);
         pully.setNeutralMode(NeutralMode.Brake);
+        //currents
+        intakeControl.setInverted(true);
     }
 
     public void hold() {
@@ -23,6 +25,7 @@ public class ArmMotor {
         intake.setNeutralMode(NeutralMode.Brake);
     }
 
+    //dontHold()
     //shootlimit
     //coast?
 

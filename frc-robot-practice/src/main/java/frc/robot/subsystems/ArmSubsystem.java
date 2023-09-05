@@ -1,5 +1,6 @@
 package frc.robot.subsystems;
 
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class ArmSubsystem extends SubsystemBase{
@@ -14,7 +15,27 @@ public class ArmSubsystem extends SubsystemBase{
         //smartdashboard??? ask abi
     }
 
+    //understood everything
+    //code would be same as abi's 
 
+    public void setIntakeSpeed(double speed) {
+        //copy pasted from Lightridge/Tesla
+        //m_motorsManager.dontHold();
+        SmartDashboard.putBoolean("Holding", hold); //what does this do
+        intakeWheelSpeed = speed;
+    }
+
+    public void getIntake() {
+
+    }
+
+    public void setOutake() {
+
+    }
+
+    public void getOutake() {
+        setOutake();
+    }
 
     public void raiseArm() {
         //neg  .set()
