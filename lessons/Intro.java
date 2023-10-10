@@ -23,10 +23,16 @@ public class Intro {
         //vs
         int mps;
 
-        //Operaters
+        //Operators
 
+        //
+        //
+        //
+        //
+        //
+        //
 
-
+        //Conditionals and Loops
 
     }
 }
