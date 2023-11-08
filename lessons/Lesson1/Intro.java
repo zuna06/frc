@@ -6,7 +6,9 @@ public class Intro {
         System.out.println("Hello World");
 
         //Variables
+        int num;
 
+        num = 5;
         int int_num = 54;
         char character = 'h';
         String char_arr = "Hello World";
@@ -32,8 +34,8 @@ public class Intro {
         boolean myBool = true;
 
         if (num3 == 4) {
-
-        } else if () {
+            
+        } else if (num3 <= 4) {
 
         } else {
 
@@ -45,6 +47,7 @@ public class Intro {
 
         while (num2 == 54) {
             System.out.println("running");
+            num2 = num2 + 1;
         }
 
         //Naming Conventions

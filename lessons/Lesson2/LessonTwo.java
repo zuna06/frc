@@ -86,11 +86,11 @@ public class LessonTwo {
         return num1 + num2;
     }
 
-    //Known as methods, they are functions but in java they are called methods of the class they are a part of
+    //They are functions but in java they are called methods of the class they are a part of
     //The text right after static represents the return type of the method
     //A return type is the data type that will be returned from that method
     //For our first method there is no return type because we are not returning anything, we just print out the full name
-    //However, our second method has a return type of int, or integer, because we return the sum of 2 integers which is an integer
+    //However, our second method has a return type of int, or integer, because we return the sum of 2 integers which is an integer data type
     //A return type can be any of the data types that are supported by java, they are chosen based on what the purpose of the method is
 
     //Static keyword will be discussed in lesson 3, if you wanna explain rn go ahead
