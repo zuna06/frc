@@ -38,11 +38,11 @@ public class ArmSubsystem extends SubsystemBase{
     }
 
     public void raiseArm() {
-        //neg  .set()
+        //neg  .set() -> periodic
     }
 
     public void lowerArm() {
-        //pos  .set()
+        //pos  .set() -> periodic
     }
 
 }

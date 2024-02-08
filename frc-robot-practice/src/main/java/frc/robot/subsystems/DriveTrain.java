@@ -41,7 +41,7 @@ public class DriveTrain extends SubsystemBase {
     }
 
     //add turbo??
-    //volt, amp config
+    //volt, amp config  0-12
     //periodic mode?
     //kinematics, positionestimator, feedforward for autonomous
 
